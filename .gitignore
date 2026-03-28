@@ -416,3 +416,14 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+# Ignore the actual database files
+*.mdf
+*.ldf
+*.ndf
+
+# Ignore backups and logs
+*.bak
+*.log
+
+# Ignore SSMS user-specific settings
+*.user
